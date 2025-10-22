@@ -40,7 +40,10 @@
 
 @media (max-width: 576px) {
   .card-text {
-    font-size: 9px;
+    font-size: 7.5px;
+  }
+  .card-text2 {
+    font-size: 7.5px;
   }
   .heading {
     padding: 10px 20px;
