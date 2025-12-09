@@ -26,8 +26,8 @@ export class CardGeneratorComponent {
       useCORS: true
     }).then((canvas) => {
       const imgData = canvas.toDataURL('image/png', 1.0);
-      const pdf = new jsPDF('landscape', 'px', [842, 595]);
-      const imgWidth = 842;
+      const pdf = new jsPDF('portrait', 'px', [595, 842]);
+      const imgWidth = 595;
       const imgHeight = canvas.height * (imgWidth / canvas.width);
       pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
 

@@ -1,8 +1,8 @@
 .card-preview {
   width: 100%;
-  max-width: 842px; /* A4 width */
+  max-width: 595px; /* A4 width */
   height: auto;
-  aspect-ratio: 842 / 595; /* Maintain A4 aspect ratio */
+  aspect-ratio: 595 / 842; /* Maintain A4 aspect ratio */
   position: relative;
   margin: 0 auto;
 }
@@ -12,21 +12,8 @@
   height: 100%;
   object-fit: contain; /* Ensure image fits without losing aspect ratio */
 }
-
-.card-text2 {
-  top: 27.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: rgb(0, 49, 154);
-  text-align: center;
-  width: 100%;
-  box-sizing: border-box;
-}
 .card-text {
-  top: 65.5%;
+  top: 48.8%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
